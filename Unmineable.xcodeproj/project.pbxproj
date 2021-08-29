@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E269B5726CCE61000BF0353 /* UnmineableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E269B5626CCE61000BF0353 /* UnmineableTextField.m */; };
+		4E269B5926D02F8B00BF0353 /* api_docs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E269B5826D02F8B00BF0353 /* api_docs.txt */; };
+		4E269B5B26D032AA00BF0353 /* architecture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E269B5A26D032AA00BF0353 /* architecture.txt */; };
+		4E269B5E26D145F000BF0353 /* UnmineableTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E269B5D26D145F000BF0353 /* UnmineableTextFieldCell.m */; };
+		4E366B7D26D5C0F9006C6D64 /* UnmineableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E366B7C26D5C0F9006C6D64 /* UnmineableWindow.m */; };
 		4EAB217B26C79C020088B934 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB217A26C79C020088B934 /* MainViewController.m */; };
+		4EAD700326D9AFA1003CC3BB /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E366B7F26D8A670006C6D64 /* NetworkRequest.m */; };
+		4EAD700626DAD26B003CC3BB /* UnmineableMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD700526DAD26B003CC3BB /* UnmineableMainView.m */; };
+		4EE5D96C26CA667900DB1AB7 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D96B26CA667900DB1AB7 /* Util.m */; };
+		4EE5D97026CB23B400DB1AB7 /* UtilColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D96F26CB23B400DB1AB7 /* UtilColor.m */; };
 		4EE7D68126C76B7600FBC879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7D68026C76B7600FBC879 /* AppDelegate.m */; };
 		4EE7D68626C76B7600FBC879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7D68526C76B7600FBC879 /* Assets.xcassets */; };
 		4EE7D68926C76B7600FBC879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7D68726C76B7600FBC879 /* Main.storyboard */; };
@@ -15,8 +24,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E269B5526CCE61000BF0353 /* UnmineableTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnmineableTextField.h; sourceTree = "<group>"; };
+		4E269B5626CCE61000BF0353 /* UnmineableTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableTextField.m; sourceTree = "<group>"; };
+		4E269B5826D02F8B00BF0353 /* api_docs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = api_docs.txt; sourceTree = "<group>"; };
+		4E269B5A26D032AA00BF0353 /* architecture.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = architecture.txt; sourceTree = "<group>"; };
+		4E269B5C26D145F000BF0353 /* UnmineableTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnmineableTextFieldCell.h; sourceTree = "<group>"; };
+		4E269B5D26D145F000BF0353 /* UnmineableTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableTextFieldCell.m; sourceTree = "<group>"; };
+		4E366B7B26D5C0F9006C6D64 /* UnmineableWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnmineableWindow.h; sourceTree = "<group>"; };
+		4E366B7C26D5C0F9006C6D64 /* UnmineableWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableWindow.m; sourceTree = "<group>"; };
+		4E366B7E26D8A5FD006C6D64 /* NetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		4E366B7F26D8A670006C6D64 /* NetworkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
 		4EAB217926C79C020088B934 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4EAB217A26C79C020088B934 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4EAD700426DAD26B003CC3BB /* UnmineableMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnmineableMainView.h; sourceTree = "<group>"; };
+		4EAD700526DAD26B003CC3BB /* UnmineableMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableMainView.m; sourceTree = "<group>"; };
+		4EE5D96B26CA667900DB1AB7 /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		4EE5D96D26CA66A100DB1AB7 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		4EE5D96F26CB23B400DB1AB7 /* UtilColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilColor.m; sourceTree = "<group>"; };
+		4EE5D97226CB23F600DB1AB7 /* UtilColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilColor.h; sourceTree = "<group>"; };
 		4EE7D67C26C76B7600FBC879 /* Unmineable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unmineable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE7D67F26C76B7600FBC879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EE7D68026C76B7600FBC879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +64,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E269B5426CCE5DB00BF0353 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				4E269B5526CCE61000BF0353 /* UnmineableTextField.h */,
+				4E269B5626CCE61000BF0353 /* UnmineableTextField.m */,
+				4E269B5C26D145F000BF0353 /* UnmineableTextFieldCell.h */,
+				4E269B5D26D145F000BF0353 /* UnmineableTextFieldCell.m */,
+				4E366B7B26D5C0F9006C6D64 /* UnmineableWindow.h */,
+				4E366B7C26D5C0F9006C6D64 /* UnmineableWindow.m */,
+				4EAD700426DAD26B003CC3BB /* UnmineableMainView.h */,
+				4EAD700526DAD26B003CC3BB /* UnmineableMainView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		4EE5D96A26CA607B00DB1AB7 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				4EE5D96E26CB238900DB1AB7 /* Util.Color */,
+				4EE5D96B26CA667900DB1AB7 /* Util.m */,
+				4EE5D96D26CA66A100DB1AB7 /* Util.h */,
+				4E366B7E26D8A5FD006C6D64 /* NetworkRequest.h */,
+				4E366B7F26D8A670006C6D64 /* NetworkRequest.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		4EE5D96E26CB238900DB1AB7 /* Util.Color */ = {
+			isa = PBXGroup;
+			children = (
+				4EE5D96F26CB23B400DB1AB7 /* UtilColor.m */,
+				4EE5D97226CB23F600DB1AB7 /* UtilColor.h */,
+			);
+			path = Util.Color;
+			sourceTree = "<group>";
+		};
 		4EE7D67326C76B7600FBC879 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +120,8 @@
 		4EE7D67E26C76B7600FBC879 /* Unmineable */ = {
 			isa = PBXGroup;
 			children = (
+				4E269B5426CCE5DB00BF0353 /* class */,
+				4EE5D96A26CA607B00DB1AB7 /* util */,
 				4EE7D67F26C76B7600FBC879 /* AppDelegate.h */,
 				4EE7D68026C76B7600FBC879 /* AppDelegate.m */,
 				4EAB217926C79C020088B934 /* MainViewController.h */,
@@ -68,6 +131,8 @@
 				4EE7D68A26C76B7600FBC879 /* Info.plist */,
 				4EE7D68B26C76B7600FBC879 /* main.m */,
 				4EE7D68D26C76B7600FBC879 /* Unmineable.entitlements */,
+				4E269B5826D02F8B00BF0353 /* api_docs.txt */,
+				4E269B5A26D032AA00BF0353 /* architecture.txt */,
 			);
 			path = Unmineable;
 			sourceTree = "<group>";
@@ -137,6 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E269B5926D02F8B00BF0353 /* api_docs.txt in Resources */,
+				4E269B5B26D032AA00BF0353 /* architecture.txt in Resources */,
 				4EE7D68626C76B7600FBC879 /* Assets.xcassets in Resources */,
 				4EE7D68926C76B7600FBC879 /* Main.storyboard in Resources */,
 			);
@@ -150,8 +217,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE7D68C26C76B7600FBC879 /* main.m in Sources */,
+				4EAD700626DAD26B003CC3BB /* UnmineableMainView.m in Sources */,
+				4E269B5726CCE61000BF0353 /* UnmineableTextField.m in Sources */,
 				4EAB217B26C79C020088B934 /* MainViewController.m in Sources */,
+				4EAD700326D9AFA1003CC3BB /* NetworkRequest.m in Sources */,
+				4EE5D97026CB23B400DB1AB7 /* UtilColor.m in Sources */,
 				4EE7D68126C76B7600FBC879 /* AppDelegate.m in Sources */,
+				4E366B7D26D5C0F9006C6D64 /* UnmineableWindow.m in Sources */,
+				4EE5D96C26CA667900DB1AB7 /* Util.m in Sources */,
+				4E269B5E26D145F000BF0353 /* UnmineableTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +369,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mau5atron.unmineable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -315,6 +390,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mau5atron.unmineable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
