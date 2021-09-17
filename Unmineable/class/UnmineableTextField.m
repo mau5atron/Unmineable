@@ -33,7 +33,7 @@
 }
 	
 - (void)awakeFromNib {
-	NSLog(@"awake from textfield");
+	// NSLog(@"awake from textfield");
 }
 
 @end

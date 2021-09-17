@@ -242,7 +242,7 @@
                                     <constraint firstAttribute="width" constant="380" id="5uC-9v-yfk"/>
                                     <constraint firstAttribute="height" constant="45" id="8SK-HF-Jrn"/>
                                 </constraints>
-                                <textFieldCell key="cell" lineBreakMode="truncatingTail" title="Balance" id="gqW-iY-Bnp" customClass="UnmineableTextFieldCell">
+                                <textFieldCell key="cell" lineBreakMode="truncatingTail" id="gqW-iY-Bnp" customClass="UnmineableTextFieldCell">
                                     <font key="font" metaFont="system" size="20"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -254,7 +254,7 @@
                                     <constraint firstAttribute="width" constant="380" id="5hZ-US-STW"/>
                                     <constraint firstAttribute="height" constant="45" id="ilC-eQ-OCa"/>
                                 </constraints>
-                                <textFieldCell key="cell" lineBreakMode="truncatingTail" title="Balance Value" id="sBY-Bs-sh1" userLabel="Balance Value Label Cell" customClass="UnmineableTextFieldCell">
+                                <textFieldCell key="cell" lineBreakMode="truncatingTail" id="sBY-Bs-sh1" userLabel="Balance Value Label Cell" customClass="UnmineableTextFieldCell">
                                     <font key="font" metaFont="system" size="20"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>

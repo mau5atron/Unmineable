@@ -1,3 +1,9 @@
-1. When requesting data, add dropdown to select which crypto we are searching for
-2. When opening the app, search for last requested crypto + balance automatically (save options in a plist)
-3. Should be able to display earnings in the status bar
+Overall App:
+	- When requesting data, add dropdown to select which crypto we are searching for
+	- When opening the app, search for last requested crypto + balance automatically (save options in a plist)
+	- Should be able to display earnings in the status bar
+	
+	- Set timestamp to display the last time we checked our mining address
+
+Issue 9/13/2021:
+- The request stuff happens in the mainviewcontroller but I would like to be able to refresh from the context of the AppDelegate menu bar items

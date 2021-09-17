@@ -37,8 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
 // actions
 - (IBAction)callAPI:(id)sender;
 
+- (void)unmineableAPIRequest;
 - (void)bitfinexAPIRequest:(NSString *)baseURI endpoint:(NSString *)endpoint tickerParameter:(NSString *)coinTickerType unmineableBalance:(CGFloat)balance;
 
+// leaving this out so that it can be a private function - (void)loadLastAddress;
++ (void)refreshData;
 @end
 
 NS_ASSUME_NONNULL_END

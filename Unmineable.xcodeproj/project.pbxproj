@@ -12,9 +12,11 @@
 		4E269B5B26D032AA00BF0353 /* architecture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E269B5A26D032AA00BF0353 /* architecture.txt */; };
 		4E269B5E26D145F000BF0353 /* UnmineableTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E269B5D26D145F000BF0353 /* UnmineableTextFieldCell.m */; };
 		4E366B7D26D5C0F9006C6D64 /* UnmineableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E366B7C26D5C0F9006C6D64 /* UnmineableWindow.m */; };
+		4E58B1FB26EFC35F00C99C48 /* address_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E58B1FA26EFC35F00C99C48 /* address_list.plist */; };
 		4EAB217B26C79C020088B934 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB217A26C79C020088B934 /* MainViewController.m */; };
 		4EAD700326D9AFA1003CC3BB /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E366B7F26D8A670006C6D64 /* NetworkRequest.m */; };
 		4EAD700626DAD26B003CC3BB /* UnmineableMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD700526DAD26B003CC3BB /* UnmineableMainView.m */; };
+		4EAD701326DD8D15003CC3BB /* NSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD701226DD8D15003CC3BB /* NSMenu.m */; };
 		4EE5D96C26CA667900DB1AB7 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D96B26CA667900DB1AB7 /* Util.m */; };
 		4EE5D97026CB23B400DB1AB7 /* UtilColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D96F26CB23B400DB1AB7 /* UtilColor.m */; };
 		4EE7D68126C76B7600FBC879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7D68026C76B7600FBC879 /* AppDelegate.m */; };
@@ -34,10 +36,13 @@
 		4E366B7C26D5C0F9006C6D64 /* UnmineableWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableWindow.m; sourceTree = "<group>"; };
 		4E366B7E26D8A5FD006C6D64 /* NetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
 		4E366B7F26D8A670006C6D64 /* NetworkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		4E58B1FA26EFC35F00C99C48 /* address_list.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = address_list.plist; sourceTree = "<group>"; };
 		4EAB217926C79C020088B934 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4EAB217A26C79C020088B934 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4EAD700426DAD26B003CC3BB /* UnmineableMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnmineableMainView.h; sourceTree = "<group>"; };
 		4EAD700526DAD26B003CC3BB /* UnmineableMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableMainView.m; sourceTree = "<group>"; };
+		4EAD701126DD8D15003CC3BB /* NSMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMenu.h; sourceTree = "<group>"; };
+		4EAD701226DD8D15003CC3BB /* NSMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMenu.m; sourceTree = "<group>"; };
 		4EE5D96B26CA667900DB1AB7 /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		4EE5D96D26CA66A100DB1AB7 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		4EE5D96F26CB23B400DB1AB7 /* UtilColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilColor.m; sourceTree = "<group>"; };
@@ -87,6 +92,8 @@
 				4EE5D96D26CA66A100DB1AB7 /* Util.h */,
 				4E366B7E26D8A5FD006C6D64 /* NetworkRequest.h */,
 				4E366B7F26D8A670006C6D64 /* NetworkRequest.m */,
+				4EAD701126DD8D15003CC3BB /* NSMenu.h */,
+				4EAD701226DD8D15003CC3BB /* NSMenu.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -133,6 +140,7 @@
 				4EE7D68D26C76B7600FBC879 /* Unmineable.entitlements */,
 				4E269B5826D02F8B00BF0353 /* api_docs.txt */,
 				4E269B5A26D032AA00BF0353 /* architecture.txt */,
+				4E58B1FA26EFC35F00C99C48 /* address_list.plist */,
 			);
 			path = Unmineable;
 			sourceTree = "<group>";
@@ -206,6 +214,7 @@
 				4E269B5B26D032AA00BF0353 /* architecture.txt in Resources */,
 				4EE7D68626C76B7600FBC879 /* Assets.xcassets in Resources */,
 				4EE7D68926C76B7600FBC879 /* Main.storyboard in Resources */,
+				4E58B1FB26EFC35F00C99C48 /* address_list.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +227,7 @@
 			files = (
 				4EE7D68C26C76B7600FBC879 /* main.m in Sources */,
 				4EAD700626DAD26B003CC3BB /* UnmineableMainView.m in Sources */,
+				4EAD701326DD8D15003CC3BB /* NSMenu.m in Sources */,
 				4E269B5726CCE61000BF0353 /* UnmineableTextField.m in Sources */,
 				4EAB217B26C79C020088B934 /* MainViewController.m in Sources */,
 				4EAD700326D9AFA1003CC3BB /* NetworkRequest.m in Sources */,
@@ -383,7 +393,7 @@
 				CODE_SIGN_ENTITLEMENTS = Unmineable/Unmineable.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DJ3X3ADRG5;
 				INFOPLIST_FILE = Unmineable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

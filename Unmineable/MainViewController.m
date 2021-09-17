@@ -7,8 +7,13 @@
 //
 
 #import "MainViewController.h"
+#import "AppDelegate.h"
 //#import <objc/runtime.h>
 //#import "UnmineableTextField.h"
+
+static id static_self = NULL;
+static NSString *staticAddressFieldValue = @"";
+// inssert pointer to the data?? for api request OR add in reference to the address value and adjust the refreshdata method to include in the api request
 
 @interface MainViewController ()
 
@@ -18,6 +23,10 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	
+	// load last address if any....
+	// insert function here to startup the app with the last address looked up
+	[self loadLastAddress];
 	
 	[self.mainView.layer setBackgroundColor:[[NSColor colorWithRed:44/255 green:44/255 blue:44/255 alpha:0.8] CGColor]];
 	[self.mainView setFrameSize:CGSizeMake(600, 380)];
@@ -48,11 +57,17 @@
 	NSMutableAttributedString *str = [[NSMutableAttributedString alloc] initWithString:@"Your ETH address" attributes:@{NSForegroundColorAttributeName:[NSColor lightGrayColor]}];
 	[str addAttribute:NSFontAttributeName value:[NSFont systemFontOfSize:37.0f] range:NSMakeRange(0, str.length)];
 	self.addressField.placeholderAttributedString = str;
-//	self.addressField.cell.backgroundStyle = NSBackgroundStyleEmphasized;
+	
+	static_self = self;
 }
 
 - (IBAction)callAPI:(id)sender {
-	[NetworkRequest unmineableRestAPIBalanceRequestWithBaseURI:@"https://api.unminable.com/v4" coinAddress:@"0xa2530ab85557A841fe58E0d43d5aaf2D9719E323" coinType:@"ETH" callback:^(
+	[self unmineableAPIRequest];
+}
+
+- (void)unmineableAPIRequest {
+	// ETH Address
+	[NetworkRequest unmineableRestAPIBalanceRequestWithBaseURI:@"https://api.unminable.com/v4" coinAddress:staticAddressFieldValue.length == 0 ? self.addressField.stringValue : staticAddressFieldValue coinType:@"ETH" callback:^(
 			NSData * _Nullable data,
 			NSURLResponse * _Nullable response,
 			NSError * _Nullable error
@@ -60,15 +75,32 @@
 			@try {
 				NSDictionary *jsonResponse = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
 				
+				if (jsonResponse == NULL){
+					NSException *jsonNullException = [NSException exceptionWithName:@"JsonResponseNullException" reason:@"Unmineable api json response was null" userInfo:NULL];
+					[jsonNullException raise];
+				}
+				
+				@try { // write the address to plist
+					// write code that copies the plist file to the documents folder if it does not alread exist
+					// or just write to the file
+					[self writeAddressToPlist:self.addressField.stringValue];
+				} @catch (NSException *exception) {
+					NSLog(@"Exception: %@", exception);
+				}
+				
+				staticAddressFieldValue = self.addressField.stringValue;
+				
 				NSLog(@"JSON response: %@", jsonResponse);
 				NSLog(@"\nBalance: %@", jsonResponse[@"data"][@"balance"]);
-				[self.balanceLabel setStringValue:[NSString stringWithFormat:@"Balance: %@", jsonResponse[@"data"][@"balance"]]];
+				[self.balanceLabel setStringValue:[NSString stringWithFormat:@"Balance: %@ %@", jsonResponse[@"data"][@"balance"], @"ETH"]];
 				[self.balanceLabelCell setHorizontalShift:0.0f];
 				[self.balanceLabel displayIfNeeded];
 				CGFloat balance =	[jsonResponse[@"data"][@"balance"] doubleValue];
+				NSLog(@"balance Before passing to bitfinex and before conversion to CGFloat: %f", [jsonResponse[@"data"][@"balance"] doubleValue]);
+				NSLog(@"balance Before passing to bitfinex: %f", balance);
 				[self bitfinexAPIRequest:@"https://api-pub.bitfinex.com/v2" endpoint:@"ticker" tickerParameter:@"tETHUSD" unmineableBalance:balance];
 			} @catch (NSException *exception) {
-				NSLog(@"Catch block");
+				NSLog(@"Exception unmineableAPIRequest: %@", exception);
 			}
 	}];
 }
@@ -79,16 +111,23 @@
 			NSURLResponse * _Nullable response,
 			NSError * _Nullable error
 		){
-			NSLog(@"in block *********************");
 			@try {
 				NSDictionary *jsonResponse = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+				
+				if (jsonResponse == NULL){
+					NSException *jsonNullException = [NSException exceptionWithName:@"bitfinexJsonAPIRequestNull" reason:@"Response from bitfinex was null." userInfo:NULL];
+					[jsonNullException raise];
+				}
+				
 				NSLog(@"bitfinex json response: %@", jsonResponse);
 				NSArray *response = (NSArray*)jsonResponse;
 				NSLog(@"Array response: %@", response[0]);
 				CGFloat marketValue = [response[0] doubleValue];
 				CGFloat calculatedBalance = marketValue * balance;
 				
-				[self.balanceValueLabel setStringValue:[NSString stringWithFormat:@"Balance market value: %f", calculatedBalance]];
+				[self.balanceValueLabel setStringValue:[NSString stringWithFormat:@"Market Value: $%f USD", calculatedBalance]];
+				NSLog(@"Before sending value: %f", balance);
+				[AppDelegate getApiCallFromMainBalance:balance withMarketValue:calculatedBalance];
 				[self.balanceValueLabelCell setHorizontalShift:0.0f];
 				[self.balanceValueLabel displayIfNeeded];
 			} @catch (NSException *exception) {
@@ -97,5 +136,54 @@
 	}];
 }
 
+// implement single function that can have multiple actions based on enum value
+// such as writing to plist, loading from plist, etc
+
+- (void)loadLastAddress {
+	// NSLog(@"Load last address here");
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, TRUE);
+	
+	NSString *documentsPath = [paths objectAtIndex:0];
+	NSString *addressPlistPath = [documentsPath stringByAppendingPathComponent:@"address_list.plist"];
+	
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	if ( [fileManager fileExistsAtPath:addressPlistPath] ){
+		// if the file exists, then do load
+		NSMutableDictionary *addressPlistContents = [[NSMutableDictionary alloc] initWithContentsOfFile:addressPlistPath];
+		if ( [addressPlistContents[@"last_address_searched"] length] > 0 ){
+			//NSLog(@"Dictionary from load: %@", addressPlistContents[@"last_address_searched"]);
+			self.addressField.stringValue = addressPlistContents[@"last_address_searched"];
+		}
+	}
+}
+
+- (void)writeAddressToPlist:(NSString*)address {
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, TRUE);
+	
+	NSString *documentsPath = [paths objectAtIndex:0];
+	NSString *addressPlistPath = [documentsPath stringByAppendingPathComponent:@"address_list.plist"];
+	
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	NSError *addressPlistError;
+	
+	if ( ![fileManager fileExistsAtPath:addressPlistPath] ){
+		NSString *mainBundle = [[NSBundle mainBundle] pathForResource:@"address_list" ofType:@"plist"];
+		[fileManager copyItemAtPath:mainBundle toPath:addressPlistPath error:&addressPlistError];
+	}
+	
+	NSMutableDictionary *addressPlistContents = [[NSMutableDictionary alloc] initWithContentsOfFile:addressPlistPath];
+	
+	addressPlistContents[@"last_address_searched"] = self.addressField.stringValue;
+	[addressPlistContents writeToFile:addressPlistPath atomically:TRUE];
+	NSLog(@"addressPistContents: %@", addressPlistContents);
+}
+
++ (void)refreshData {
+	// need to pass block here
+	[static_self unmineableAPIRequest];
+}
 
 @end
