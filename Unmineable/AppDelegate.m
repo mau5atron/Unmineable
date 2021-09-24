@@ -25,6 +25,18 @@ static id static_self = NULL;
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+	//	NSArray *runningApps = [[NSWorkspace sharedWorkspace] runningApplications];
+	//	AXUIElementCopyAttributeValues(<#AXUIElementRef  _Nonnull element#>, <#CFStringRef  _Nonnull attribute#>, <#CFIndex index#>, <#CFIndex maxValues#>, <#CFArrayRef  _Nullable * _Nonnull values#>)
+	//	NSLog(@"Running applications: %@", runningApps);
+	
+	//	NSNotificationCenter *notCenter;
+	//	// Assume -observerMethod:(id)aNotification exists
+	//	notCenter = [[NSWorkspace sharedWorkspace] notificationCenter];
+	//	[notCenter addObserver:self
+	//						 selector:@selector(notificationObserverMethod:)
+	//						 name:nil object:nil]; // Register for all notifications
+	
+	
 	// Insert code here to initialize your application
 	//	NSMutableAttributedString *unAttributedStr = [[NSMutableAttributedString alloc] initWithString:_unChar];
 	//	NSMutableAttributedString *mineableAttributedStr = [[NSMutableAttributedString alloc] initWithString:_mineableChar];
@@ -94,9 +106,9 @@ static id static_self = NULL;
 	// NOTE: Getting the shortcuts to work from the window shoud be pushed to another time and should actually be done from the file menu for the app instead
 }
 
-
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
 	// Insert code here to tear down your application
+	NSLog(@"Teminating application: %@", aNotification);
 }
 
 - (void)menuSelectionAction:(id)sender {
@@ -184,6 +196,12 @@ static id static_self = NULL;
 ////	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
 ////		block();
 ////	});
+//}
+
+//- (void)notificationObserverMethod:(id)sender {
+//	//NSLog(@"\n\n\n\n\n\n notification observer sender: %@\n\n\n\n\n\n\n", sender);
+//	// sender first responds with the notification about the app you switched to + the app you came from
+//
 //}
 
 @end
