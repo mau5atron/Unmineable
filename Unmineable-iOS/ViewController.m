@@ -25,10 +25,24 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view.
-	//self.unLabel.font = [[UIFont alloc] fontWithSize:200.0f];
-//	self.unLabel.textColor = [UIColor whiteColor];
-//	self.unLabel.font = [UIFont fontWithName:@"Poppins" size:400];
+	self.unLabel.textColor = [UtilColor colorFromHexString:@"#9CCABF"];
+	self.mineableLabel.textColor = [UtilColor colorFromHexString:@"#4BCEB1"];
+	
+	deviceWidth = CGRectGetWidth(self.view.bounds);
+	deviceHeight = CGRectGetHeight(self.view.bounds);
+	CGFloat labelStackFrameOriginX = self.labelStack.frame.origin.x;
+	CGFloat labelStackFrameOriginY = self.labelStack.frame.origin.y;
+	CGFloat labelStackFrameBoundsWidth = self.labelStack.frame.size.width;
+	CGFloat labelStackFrameBoundsHeight = self.labelStack.frame.size.height;
+	
+	self.labelStack.layer.frame = CGRectMake(labelStackFrameOriginX, labelStackFrameOriginY, labelStackFrameBoundsWidth, labelStackFrameBoundsHeight);
+	NSLog(@"Screen Height: %.2f", self.view.bounds.size.height);
+	[UIView animateWithDuration:1.0f delay:0.5f options:(UIViewAnimationOptions)UIViewAnimationOptionCurveEaseInOut animations:^{
+		//NSLog(@"Animaating, labelStackFrameOriginY: %.2f", labelStackFrameOriginY);
+		self.labelStack.layer.frame = CGRectMake(labelStackFrameOriginX, labelStackFrameOriginY - (self.view.bounds.size.height / 2) + 85, labelStackFrameBoundsWidth, labelStackFrameBoundsHeight);
+	} completion:^(BOOL finished){
+		//NSLog(@"Finished Animated label stack");
+	}];
 }
 
 

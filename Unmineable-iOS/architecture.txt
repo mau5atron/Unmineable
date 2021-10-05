@@ -1,0 +1,6 @@
+# Architecture for iOS + Watch Extension
+1. iOS app should work the same way it does on macos
+2. iOS should be sending background updates to Watch app or have the watch refresh data since it may have an internet	connection
+3. Load values periodically 15/30/1hr intervals
+4. When opening the standalone app on Watch, last address searched should be searched again
+5. etc..

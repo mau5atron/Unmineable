@@ -11,6 +11,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *launchScreen;
+@property (strong, nonatomic) UIWindow *window;
 
 @end
 

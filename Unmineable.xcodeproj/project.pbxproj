@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1263D22703DC7600136DBE /* Unmineable-icon-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1263D12703DC7600136DBE /* Unmineable-icon-new.png */; };
+		4E1263D32703DC7600136DBE /* Unmineable-icon-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1263D12703DC7600136DBE /* Unmineable-icon-new.png */; };
+		4E1263D42703DC7600136DBE /* Unmineable-icon-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1263D12703DC7600136DBE /* Unmineable-icon-new.png */; };
+		4E1263D52703DC7600136DBE /* Unmineable-icon-new.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1263D12703DC7600136DBE /* Unmineable-icon-new.png */; };
+		4E1263D92703E41800136DBE /* UtilColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1263D82703E41800136DBE /* UtilColor.m */; };
+		4E1263DA2703E41800136DBE /* UtilColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1263D82703E41800136DBE /* UtilColor.m */; };
+		4E1263DC2703E81F00136DBE /* architecture.txt in Sources */ = {isa = PBXBuildFile; fileRef = 4E1263DB2703E81F00136DBE /* architecture.txt */; };
+		4E1263DD2703E81F00136DBE /* architecture.txt in Sources */ = {isa = PBXBuildFile; fileRef = 4E1263DB2703E81F00136DBE /* architecture.txt */; };
 		4E269B5726CCE61000BF0353 /* UnmineableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E269B5626CCE61000BF0353 /* UnmineableTextField.m */; };
 		4E269B5926D02F8B00BF0353 /* api_docs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E269B5826D02F8B00BF0353 /* api_docs.txt */; };
 		4E269B5B26D032AA00BF0353 /* architecture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4E269B5A26D032AA00BF0353 /* architecture.txt */; };
@@ -16,19 +24,17 @@
 		4E56F15926FD4B5E00C0B4DC /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5803FD26FBC24B00A08725 /* FredokaOne-Regular.ttf */; };
 		4E56F15B26FD4B9400C0B4DC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5803FB26FBC22C00A08725 /* Poppins-Regular.ttf */; };
 		4E56F15C26FD4B9500C0B4DC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5803FB26FBC22C00A08725 /* Poppins-Regular.ttf */; };
-		4E56F15E26FD4D2A00C0B4DC /* Unmineable-icon-original.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E56F15D26FD4D2A00C0B4DC /* Unmineable-icon-original.png */; };
-		4E56F15F26FD4D2A00C0B4DC /* Unmineable-icon-original.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E56F15D26FD4D2A00C0B4DC /* Unmineable-icon-original.png */; };
-		4E56F16026FD4D2A00C0B4DC /* Unmineable-icon-original.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E56F15D26FD4D2A00C0B4DC /* Unmineable-icon-original.png */; };
 		4E5803FC26FBC22C00A08725 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5803FB26FBC22C00A08725 /* Poppins-Regular.ttf */; };
 		4E5803FE26FBC24B00A08725 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5803FD26FBC24B00A08725 /* FredokaOne-Regular.ttf */; };
 		4E58B1FB26EFC35F00C99C48 /* address_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E58B1FA26EFC35F00C99C48 /* address_list.plist */; };
 		4EA6D23726F4B83400C1AA9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6D23626F4B83400C1AA9C /* AppDelegate.m */; };
-		4EA6D23A26F4B83400C1AA9C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6D23926F4B83400C1AA9C /* SceneDelegate.m */; };
 		4EA6D23D26F4B83400C1AA9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6D23C26F4B83400C1AA9C /* ViewController.m */; };
 		4EA6D24026F4B83400C1AA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6D23E26F4B83400C1AA9C /* Main.storyboard */; };
 		4EA6D24226F4B83500C1AA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6D24126F4B83500C1AA9C /* Assets.xcassets */; };
 		4EA6D24526F4B83500C1AA9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6D24326F4B83500C1AA9C /* LaunchScreen.storyboard */; };
 		4EA6D24826F4B83500C1AA9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6D24726F4B83500C1AA9C /* main.m */; };
+		4EA8EFAE2702A3060022D0AA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5803FB26FBC22C00A08725 /* Poppins-Regular.ttf */; };
+		4EA8EFAF2702A30F0022D0AA /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5803FD26FBC24B00A08725 /* FredokaOne-Regular.ttf */; };
 		4EAB217B26C79C020088B934 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB217A26C79C020088B934 /* MainViewController.m */; };
 		4EAD700326D9AFA1003CC3BB /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E366B7F26D8A670006C6D64 /* NetworkRequest.m */; };
 		4EAD700626DAD26B003CC3BB /* UnmineableMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD700526DAD26B003CC3BB /* UnmineableMainView.m */; };
@@ -92,6 +98,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E1263D12703DC7600136DBE /* Unmineable-icon-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Unmineable-icon-new.png"; path = "../../../../Downloads/Unmineable-icon-new.png"; sourceTree = "<group>"; };
+		4E1263D72703E41800136DBE /* UtilColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilColor.h; sourceTree = "<group>"; };
+		4E1263D82703E41800136DBE /* UtilColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilColor.m; sourceTree = "<group>"; };
+		4E1263DB2703E81F00136DBE /* architecture.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = architecture.txt; sourceTree = "<group>"; };
 		4E269B5526CCE61000BF0353 /* UnmineableTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnmineableTextField.h; sourceTree = "<group>"; };
 		4E269B5626CCE61000BF0353 /* UnmineableTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableTextField.m; sourceTree = "<group>"; };
 		4E269B5826D02F8B00BF0353 /* api_docs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = api_docs.txt; sourceTree = "<group>"; };
@@ -102,15 +112,12 @@
 		4E366B7C26D5C0F9006C6D64 /* UnmineableWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableWindow.m; sourceTree = "<group>"; };
 		4E366B7E26D8A5FD006C6D64 /* NetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
 		4E366B7F26D8A670006C6D64 /* NetworkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
-		4E56F15D26FD4D2A00C0B4DC /* Unmineable-icon-original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unmineable-icon-original.png"; sourceTree = "<group>"; };
 		4E5803FB26FBC22C00A08725 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		4E5803FD26FBC24B00A08725 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
 		4E58B1FA26EFC35F00C99C48 /* address_list.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = address_list.plist; sourceTree = "<group>"; };
 		4EA6D23326F4B83300C1AA9C /* Unmineable-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unmineable-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA6D23526F4B83400C1AA9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EA6D23626F4B83400C1AA9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4EA6D23826F4B83400C1AA9C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4EA6D23926F4B83400C1AA9C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4EA6D23B26F4B83400C1AA9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4EA6D23C26F4B83400C1AA9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EA6D23F26F4B83400C1AA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -178,6 +185,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1263D62703E3DE00136DBE /* iOSUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4E1263D72703E41800136DBE /* UtilColor.h */,
+				4E1263D82703E41800136DBE /* UtilColor.m */,
+			);
+			path = iOSUtil;
+			sourceTree = "<group>";
+		};
 		4E269B5426CCE5DB00BF0353 /* class */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +212,7 @@
 		4E56F15A26FD4B8000C0B4DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4E56F15D26FD4D2A00C0B4DC /* Unmineable-icon-original.png */,
+				4E1263D12703DC7600136DBE /* Unmineable-icon-new.png */,
 				4E5803FD26FBC24B00A08725 /* FredokaOne-Regular.ttf */,
 				4E5803FB26FBC22C00A08725 /* Poppins-Regular.ttf */,
 			);
@@ -208,8 +224,6 @@
 			children = (
 				4EA6D23526F4B83400C1AA9C /* AppDelegate.h */,
 				4EA6D23626F4B83400C1AA9C /* AppDelegate.m */,
-				4EA6D23826F4B83400C1AA9C /* SceneDelegate.h */,
-				4EA6D23926F4B83400C1AA9C /* SceneDelegate.m */,
 				4EA6D23B26F4B83400C1AA9C /* ViewController.h */,
 				4EA6D23C26F4B83400C1AA9C /* ViewController.m */,
 				4EA6D23E26F4B83400C1AA9C /* Main.storyboard */,
@@ -217,6 +231,7 @@
 				4EA6D24326F4B83500C1AA9C /* LaunchScreen.storyboard */,
 				4EA6D24626F4B83500C1AA9C /* Info.plist */,
 				4EA6D24726F4B83500C1AA9C /* main.m */,
+				4E1263DB2703E81F00136DBE /* architecture.txt */,
 			);
 			path = "Unmineable-iOS";
 			sourceTree = "<group>";
@@ -273,6 +288,7 @@
 		4EE7D67326C76B7600FBC879 = {
 			isa = PBXGroup;
 			children = (
+				4E1263D62703E3DE00136DBE /* iOSUtil */,
 				4E56F15A26FD4B8000C0B4DC /* Resources */,
 				4EE7D67E26C76B7600FBC879 /* Unmineable */,
 				4EA6D23426F4B83300C1AA9C /* Unmineable-iOS */,
@@ -447,8 +463,8 @@
 			files = (
 				4E5803FE26FBC24B00A08725 /* FredokaOne-Regular.ttf in Resources */,
 				4E5803FC26FBC22C00A08725 /* Poppins-Regular.ttf in Resources */,
-				4E56F15E26FD4D2A00C0B4DC /* Unmineable-icon-original.png in Resources */,
 				4EA6D24526F4B83500C1AA9C /* LaunchScreen.storyboard in Resources */,
+				4E1263D32703DC7600136DBE /* Unmineable-icon-new.png in Resources */,
 				4EA6D24226F4B83500C1AA9C /* Assets.xcassets in Resources */,
 				4EA6D24026F4B83400C1AA9C /* Main.storyboard in Resources */,
 			);
@@ -458,11 +474,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E56F15F26FD4D2A00C0B4DC /* Unmineable-icon-original.png in Resources */,
 				4EE5313F26F6D775006EB98A /* Assets.xcassets in Resources */,
 				4EE5313D26F6D773006EB98A /* Interface.storyboard in Resources */,
 				4E56F15826FD4B5E00C0B4DC /* FredokaOne-Regular.ttf in Resources */,
 				4E56F15B26FD4B9400C0B4DC /* Poppins-Regular.ttf in Resources */,
+				4E1263D42703DC7600136DBE /* Unmineable-icon-new.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,9 +486,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1263D52703DC7600136DBE /* Unmineable-icon-new.png in Resources */,
 				4E56F15C26FD4B9500C0B4DC /* Poppins-Regular.ttf in Resources */,
 				4EE5315426F6D775006EB98A /* Assets.xcassets in Resources */,
-				4E56F16026FD4D2A00C0B4DC /* Unmineable-icon-original.png in Resources */,
 				4E56F15926FD4B5E00C0B4DC /* FredokaOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,11 +497,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA8EFAF2702A30F0022D0AA /* FredokaOne-Regular.ttf in Resources */,
+				4EA8EFAE2702A3060022D0AA /* Poppins-Regular.ttf in Resources */,
 				4E269B5926D02F8B00BF0353 /* api_docs.txt in Resources */,
 				4E269B5B26D032AA00BF0353 /* architecture.txt in Resources */,
 				4EE7D68626C76B7600FBC879 /* Assets.xcassets in Resources */,
 				4EE7D68926C76B7600FBC879 /* Main.storyboard in Resources */,
 				4E58B1FB26EFC35F00C99C48 /* address_list.plist in Resources */,
+				4E1263D22703DC7600136DBE /* Unmineable-icon-new.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +518,8 @@
 				4EA6D23D26F4B83400C1AA9C /* ViewController.m in Sources */,
 				4EA6D23726F4B83400C1AA9C /* AppDelegate.m in Sources */,
 				4EA6D24826F4B83500C1AA9C /* main.m in Sources */,
-				4EA6D23A26F4B83400C1AA9C /* SceneDelegate.m in Sources */,
+				4E1263DC2703E81F00136DBE /* architecture.txt in Sources */,
+				4E1263D92703E41800136DBE /* UtilColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +530,8 @@
 				4EE5314F26F6D775006EB98A /* ExtensionDelegate.m in Sources */,
 				4EE5314C26F6D775006EB98A /* InterfaceController.m in Sources */,
 				4EE5315226F6D775006EB98A /* NotificationController.m in Sources */,
+				4E1263DD2703E81F00136DBE /* architecture.txt in Sources */,
+				4E1263DA2703E41800136DBE /* UtilColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,11 +608,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ultramau5.thingie@gmail.com (ND4AK2EEU4)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ3X3ADRG5;
 				INFOPLIST_FILE = "Unmineable-iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -608,11 +630,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ultramau5.thingie@gmail.com (ND4AK2EEU4)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ3X3ADRG5;
 				INFOPLIST_FILE = "Unmineable-iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -631,10 +653,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = DJ3X3ADRG5;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = "Unmineable-Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -648,7 +670,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
 			};
 			name = Debug;
 		};
@@ -656,10 +678,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = DJ3X3ADRG5;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = "Unmineable-Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,7 +696,7 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
 			};
 			name = Release;
 		};
@@ -682,10 +704,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ultramau5.thingie@gmail.com (ND4AK2EEU4)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = DJ3X3ADRG5;
+				ENABLE_HARDENED_RUNTIME = NO;
 				IBSC_MODULE = Unmineable_Watch_Extension;
 				INFOPLIST_FILE = "Unmineable-Watch/Info.plist";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
@@ -695,7 +717,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
 			};
 			name = Debug;
 		};
@@ -703,10 +725,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ultramau5.thingie@gmail.com (ND4AK2EEU4)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = DJ3X3ADRG5;
+				ENABLE_HARDENED_RUNTIME = NO;
 				IBSC_MODULE = Unmineable_Watch_Extension;
 				INFOPLIST_FILE = "Unmineable-Watch/Info.plist";
 				OTHER_CODE_SIGN_FLAGS = "--deep";
@@ -717,7 +739,7 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
 			};
 			name = Release;
 		};
@@ -839,7 +861,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Unmineable/Unmineable.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DJ3X3ADRG5;
@@ -861,7 +883,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Unmineable/Unmineable.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DJ3X3ADRG5;

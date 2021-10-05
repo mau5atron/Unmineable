@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "../iOSUtil/UtilColor.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+	float deviceWidth;
+	float deviceHeight;
+}
 
 @property (weak, nonatomic) IBOutlet UILabel *unLabel;
 @property (weak, nonatomic) IBOutlet UILabel *mineableLabel;
+
+@property (weak, nonatomic) IBOutlet UIStackView *labelStack;
 
 @end
 

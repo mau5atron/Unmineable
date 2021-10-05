@@ -93,6 +93,7 @@ static NSString *staticAddressFieldValue = @"";
 				NSLog(@"JSON response: %@", jsonResponse);
 				NSLog(@"\nBalance: %@", jsonResponse[@"data"][@"balance"]);
 				[self.balanceLabel setStringValue:[NSString stringWithFormat:@"Balance: %@ %@", jsonResponse[@"data"][@"balance"], @"ETH"]];
+				[self.balanceLabel setTextColor:[NSColor whiteColor]];
 				[self.balanceLabelCell setHorizontalShift:0.0f];
 				[self.balanceLabel displayIfNeeded];
 				CGFloat balance =	[jsonResponse[@"data"][@"balance"] doubleValue];
@@ -127,6 +128,7 @@ static NSString *staticAddressFieldValue = @"";
 				
 				[self.balanceValueLabel setStringValue:[NSString stringWithFormat:@"Market Value: $%f USD", calculatedBalance]];
 				NSLog(@"Before sending value: %f", balance);
+				[self.balanceValueLabel setTextColor:[NSColor whiteColor]];
 				[AppDelegate getApiCallFromMainBalance:balance withMarketValue:calculatedBalance];
 				[self.balanceValueLabelCell setHorizontalShift:0.0f];
 				[self.balanceValueLabel displayIfNeeded];

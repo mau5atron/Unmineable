@@ -7,3 +7,4 @@ Overall App:
 
 Issue 9/13/2021:
 - The request stuff happens in the mainviewcontroller but I would like to be able to refresh from the context of the AppDelegate menu bar items
+- Done
