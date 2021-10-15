@@ -28,7 +28,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;#sudo codesign -f -s - $CODESIGNING_FOLDER_PATH/Contents/MacOS/*&#10;&#10;&#10;exec &gt; ${PROJECT_DIR}/postbuild.log 2&gt;&amp;1&#10;echo &quot;Starting codesigning.....&quot;&#10;codesign -f -s - ${CODESIGNING_FOLDER_PATH}/Contents/MacOS/Unmineable&#10;echo &quot;Finished codesigning :)&quot;&#10;">
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;#sudo codesign -f -s - $CODESIGNING_FOLDER_PATH/Contents/MacOS/*&#10;&#10;&#10;exec &gt; ${PROJECT_DIR}/postbuild.log 2&gt;&amp;1&#10;echo &quot;Starting codesigning.....&quot;&#10;codesign -f -s - ${CODESIGNING_FOLDER_PATH}/Contents/MacOS/Unmineable&#10;echo &quot;Codesigning echo: &quot; + ${CODESIGNING_FOLDER_PATH}/Contents/MacOS/Unmineable &#10;echo &quot;Finished codesigning :)&quot;&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"

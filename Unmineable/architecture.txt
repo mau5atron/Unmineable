@@ -8,3 +8,8 @@ Overall App:
 Issue 9/13/2021:
 - The request stuff happens in the mainviewcontroller but I would like to be able to refresh from the context of the AppDelegate menu bar items
 - Done
+
+Issue 10/12/2021:
+- In macOS with ios 13+, couldn't build the app due to removing the scene delegate file. Could not perform initial screen animation as the Main storyboard file was being
+	referenced in the scene delegate file. In info.plist for ios, I removed the "UIApplicationSceneManifest" property with its other nested properties and the issue went away
+	and was able to play the animation successfully.

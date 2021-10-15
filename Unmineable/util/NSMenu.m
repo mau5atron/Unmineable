@@ -15,10 +15,10 @@
 - (void)_highlightItem:(NSStatusItem *)menuItem {
 	// method selector
 	// const SEL selHighlightItem = @selector(_highlightItem:); // fails
-	const SEL selHighlightItem = @selector(highlightItem:);
-	if ([self respondsToSelector:selHighlightItem]){
-		[self performSelector:selHighlightItem withObject:menuItem];
-	}
+	//	const SEL selHighlightItem = @selector(highlightItem:);
+	//	if ([self respondsToSelector:selHighlightItem]){
+	//		[self performSelector:selHighlightItem withObject:menuItem];
+	//	}
 }
 
 @end

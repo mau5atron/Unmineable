@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="FredokaOne-Regular.ttf">
-            <string>FredokaOne-Regular</string>
-        </array>
-        <array key="Poppins-Regular.ttf">
-            <string>Poppins-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -26,48 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="6No-DB-0mz" userLabel="AppLabelStack">
-                                <rect key="frame" x="69.5" y="60" width="275" height="55"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="un" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKc-Z2-Hpu">
-                                        <rect key="frame" x="0.0" y="6" width="52" height="49"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="49" id="22D-Fr-bu6"/>
-                                            <constraint firstAttribute="width" constant="52" id="6cx-ok-OY2"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="36"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mineable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jc7-lE-pFt">
-                                        <rect key="frame" x="51" y="0.0" width="224" height="55"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="220" id="C7y-G0-UpK"/>
-                                            <constraint firstAttribute="height" constant="55" id="vE0-Pa-Djb"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="FredokaOne-Regular" family="Fredoka One" pointSize="49"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unmineable-icon-new.png" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-JP-kj6">
+                                <rect key="frame" x="65" y="-422" width="284" height="1024"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="Xhh-x4-9PU"/>
-                                    <constraint firstAttribute="width" constant="275" id="qlH-sH-mwI"/>
+                                    <constraint firstAttribute="height" constant="1024" id="YAc-Oe-Ljp"/>
+                                    <constraint firstAttribute="width" constant="284" id="r8A-a8-GTs"/>
                                 </constraints>
-                            </stackView>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.17254901959999999" alpha="0.80345676369999997" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="6No-DB-0mz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="60" id="ZCD-5L-WCh"/>
-                            <constraint firstItem="6No-DB-0mz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xvu-a9-VSW"/>
+                            <constraint firstItem="IXZ-JP-kj6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Io-Hv-Al3"/>
+                            <constraint firstItem="IXZ-JP-kj6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aFt-Xe-3uB"/>
+                            <constraint firstItem="IXZ-JP-kj6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="90" id="gbM-3o-taC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="labelStack" destination="6No-DB-0mz" id="5y9-JX-aw3"/>
-                        <outlet property="mineableLabel" destination="jc7-lE-pFt" id="Q9i-CL-GIt"/>
-                        <outlet property="unLabel" destination="UKc-Z2-Hpu" id="xWc-hq-Uqr"/>
+                        <outlet property="unmineableImageView" destination="IXZ-JP-kj6" id="nbS-33-Hoc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -75,4 +41,7 @@
             <point key="canvasLocation" x="139" y="139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Unmineable-icon-new.png" width="147.45599365234375" height="147.45599365234375"/>
+    </resources>
 </document>

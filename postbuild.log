@@ -1,3 +1,4 @@
 Starting codesigning.....
-/Users/mau5atron/Library/Developer/Xcode/DerivedData/Unmineable-eqyjrobbnpcmrvcyvhrlwdsulysc/Build/Products/Debug/Unmineable.app/Contents/MacOS/Unmineable: replacing existing signature
+/Users/mau5atron/Library/Developer/Xcode/DerivedData/Unmineable-aczsvoagehdynbeghjwjfkhauuei/Build/Products/Debug/Unmineable.app/Contents/MacOS/Unmineable: resource fork, Finder information, or similar detritus not allowed
+Codesigning echo:  + /Users/mau5atron/Library/Developer/Xcode/DerivedData/Unmineable-aczsvoagehdynbeghjwjfkhauuei/Build/Products/Debug/Unmineable.app/Contents/MacOS/Unmineable
 Finished codesigning :)

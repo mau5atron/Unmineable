@@ -16,8 +16,9 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *unLabel;
 @property (weak, nonatomic) IBOutlet UILabel *mineableLabel;
-
 @property (weak, nonatomic) IBOutlet UIStackView *labelStack;
+
+@property (weak, nonatomic) IBOutlet UIImageView *unmineableImageView;
 
 @end
 
