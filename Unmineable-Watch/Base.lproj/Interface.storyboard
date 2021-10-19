@@ -14,9 +14,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <imageView width="160" height="34" alignment="center" image="Unmineable-icon-new" contentMode="scaleAspectFill" id="efJ-xp-eqh"/>
-                        <label alignment="center" text="Balance" textAlignment="center" id="CFd-6n-Qp5"/>
-                        <label alignment="center" text="BalanceValue" id="JQn-Bh-cE6"/>
+                        <imageView width="200" height="70" alignment="center" image="Unmineable-icon-new" contentMode="scaleAspectFill" id="efJ-xp-eqh"/>
+                        <label alignment="left" text="  ETH:" textAlignment="center" id="CFd-6n-Qp5"/>
+                        <label alignment="left" text="  USD:" id="JQn-Bh-cE6"/>
                     </items>
                 </controller>
             </objects>

@@ -46,9 +46,16 @@
 		//self.labelStack.layer.frame = CGRectMake(labelStackFrameOriginX, labelStackFrameOriginY - (self.view.bounds.size.height / 2) + 85, labelStackFrameBoundsWidth, labelStackFrameBoundsHeight);
 		self.unmineableImageView.layer.frame = CGRectMake(labelStackFrameOriginX, labelStackFrameOriginY - (self.view.bounds.size.height / 2) + unmineableImageViewCenterYToSuperview, labelStackFrameBoundsWidth, labelStackFrameBoundsHeight);
 	} completion:^(BOOL finished){
-		//NSLog(@"Finished Animated label stack");
+		// unhide textfield
+		self.searchTextField.hidden = FALSE;
+		// CATransform3D perspective = CATransform3DIdentity;
+		// perspective.m34 = -1.0 / 500;
+		
+		// self.unmineableImageView.layer.sublayerTransform = perspective;
+		
+		CATransform3D transform = CATransform3DMakeRotation(M_1_PI, 0, 1, 0);
+		self.unmineableImageView.layer.transform = transform;
 	}];
 }
-
 
 @end

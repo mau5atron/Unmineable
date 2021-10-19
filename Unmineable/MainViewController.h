@@ -12,6 +12,7 @@
 #import "UnmineableTextFieldCell.h"
 #import "util/Util.Color/UtilColor.h"
 #import "util/NetworkRequest.h"
+#import "util/Util.Image/UtilImage.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -20,11 +21,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @property (weak, nonatomic) IBOutlet NSView *mainView;
+
+// get rid of these
 @property (weak, nonatomic) IBOutlet NSTextField *unLabel;
 @property (weak, nonatomic) IBOutlet NSTextField *mineableLabel;
+
+
 @property (weak, nonatomic) IBOutlet NSButton *searchButton;
 @property (weak, nonatomic) IBOutlet UnmineableTextField *addressField; // custom field
 @property (weak, nonatomic) IBOutlet UnmineableTextFieldCell *textFieldCell; // custom cell
+@property (weak, nonatomic) IBOutlet NSImageView *unmineableImageView;
 
 // displaying current balance
 @property (weak, nonatomic) IBOutlet UnmineableTextField *balanceLabel;

@@ -23,6 +23,9 @@ static NSString *staticAddressFieldValue = @"";
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	// start application wit scaling of the unmineable image
+	// rest of the items will look jank in the storyboard but its fine
+	[[self unmineableImageView] setImage:[UtilImage scaleImage:self.unmineableImageView.image toSize:NSMakeSize(350.0f, 400.0f)]];
 	
 	// load last address if any....
 	// insert function here to startup the app with the last address looked up
