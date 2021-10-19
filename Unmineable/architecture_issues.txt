@@ -13,3 +13,11 @@ Issue 10/12/2021:
 - In macOS with ios 13+, couldn't build the app due to removing the scene delegate file. Could not perform initial screen animation as the Main storyboard file was being
 	referenced in the scene delegate file. In info.plist for ios, I removed the "UIApplicationSceneManifest" property with its other nested properties and the issue went away
 	and was able to play the animation successfully.
+- Fixed certificate hell by going to: build settings > "search signing" > remove provisioning profile
+
+
+Feature 10/15/2021:
+- Add unmineable image skew effect when hovering over image (image rotates left, right, up, down)
+	- Detect when user has entered window context
+	- start animating rotate effect when mouse is in proximity to the image
+	- Add menu option to disable effect if user does not like it

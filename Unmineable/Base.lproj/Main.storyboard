@@ -167,37 +167,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="380"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <stackView distribution="fill" orientation="horizontal" alignment="bottom" spacing="2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UuN-7I-cds" userLabel="AppLabelStack">
-                                <rect key="frame" x="174" y="293" width="253" height="67"/>
-                                <subviews>
-                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8g-T8-84x">
-                                        <rect key="frame" x="-2" y="0.0" width="53" height="50"/>
-                                        <textFieldCell key="cell" lineBreakMode="clipping" focusRingType="none" alignment="center" title="un" id="Vml-GM-n7M">
-                                            <font key="font" size="35" name="Poppins-Regular"/>
-                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
-                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuP-wP-CFp">
-                                        <rect key="frame" x="49" y="0.0" width="206" height="67"/>
-                                        <textFieldCell key="cell" lineBreakMode="clipping" focusRingType="none" alignment="center" title="Mineable" id="vGG-N2-5fv">
-                                            <font key="font" size="45" name="FredokaOne-Regular"/>
-                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
-                                </subviews>
-                                <visibilityPriorities>
-                                    <integer value="1000"/>
-                                    <integer value="1000"/>
-                                </visibilityPriorities>
-                                <customSpacing>
-                                    <real value="3.4028234663852886e+38"/>
-                                    <real value="3.4028234663852886e+38"/>
-                                </customSpacing>
-                            </stackView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VpI-Uv-fft">
+                                <rect key="frame" x="226" y="372" width="148" height="148"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Unmineable-icon-new" id="EAG-9n-V1U"/>
+                            </imageView>
                             <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="-2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKi-8m-Cyv" userLabel="Search Stack View">
-                                <rect key="frame" x="112" y="192" width="376" height="56"/>
+                                <rect key="frame" x="112" y="446" width="376" height="56"/>
                                 <subviews>
                                     <textField toolTip="Paste your wallet address here" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dw3-Y5-gUc" userLabel="Wallet Address" customClass="UnmineableTextField">
                                         <rect key="frame" x="0.0" y="0.0" width="318" height="56"/>
@@ -237,7 +212,7 @@
                                 </customSpacing>
                             </stackView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TuY-2M-OWY" customClass="UnmineableTextField">
-                                <rect key="frame" x="108" y="122" width="384" height="45"/>
+                                <rect key="frame" x="108" y="386" width="384" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="380" id="5uC-9v-yfk"/>
                                     <constraint firstAttribute="height" constant="45" id="8SK-HF-Jrn"/>
@@ -249,7 +224,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Cqn-AW-8rY" userLabel="Balance Value Label" customClass="UnmineableTextField">
-                                <rect key="frame" x="108" y="69" width="384" height="45"/>
+                                <rect key="frame" x="108" y="341" width="384" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="380" id="5hZ-US-STW"/>
                                     <constraint firstAttribute="height" constant="45" id="ilC-eQ-OCa"/>
@@ -262,14 +237,14 @@
                             </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="TuY-2M-OWY" firstAttribute="top" secondItem="eKi-8m-Cyv" secondAttribute="bottom" constant="25" id="2fC-PK-IPM"/>
-                            <constraint firstItem="UuN-7I-cds" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="KUT-1G-BEV"/>
+                            <constraint firstItem="VpI-Uv-fft" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="0nG-0m-5Qw"/>
+                            <constraint firstItem="eKi-8m-Cyv" firstAttribute="top" secondItem="VpI-Uv-fft" secondAttribute="bottom" constant="-130" id="1Z2-HX-zhx"/>
+                            <constraint firstItem="TuY-2M-OWY" firstAttribute="top" secondItem="eKi-8m-Cyv" secondAttribute="bottom" constant="15" id="2fC-PK-IPM"/>
                             <constraint firstItem="Cqn-AW-8rY" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="Pxq-Jl-vJ4"/>
                             <constraint firstItem="TuY-2M-OWY" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="XZV-cb-csL"/>
-                            <constraint firstItem="Cqn-AW-8rY" firstAttribute="top" secondItem="TuY-2M-OWY" secondAttribute="bottom" constant="8" id="Y9V-1x-ZB5"/>
-                            <constraint firstItem="UuN-7I-cds" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="cS4-Cc-KTb"/>
-                            <constraint firstItem="eKi-8m-Cyv" firstAttribute="top" secondItem="UuN-7I-cds" secondAttribute="bottom" constant="45" id="gYO-Vu-k9q"/>
+                            <constraint firstItem="Cqn-AW-8rY" firstAttribute="top" secondItem="TuY-2M-OWY" secondAttribute="bottom" id="Y9V-1x-ZB5"/>
                             <constraint firstItem="eKi-8m-Cyv" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="ne4-qG-QeJ"/>
+                            <constraint firstItem="VpI-Uv-fft" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="-140" id="wsT-ov-HlJ"/>
                         </constraints>
                         <connections>
                             <outlet property="addressTextField" destination="Dw3-Y5-gUc" id="Bsd-ay-lkZ"/>
@@ -282,10 +257,9 @@
                         <outlet property="balanceValueLabel" destination="Cqn-AW-8rY" id="x9c-lZ-oHb"/>
                         <outlet property="balanceValueLabelCell" destination="sBY-Bs-sh1" id="IIm-F2-wEw"/>
                         <outlet property="mainView" destination="m2S-Jp-Qdl" id="jEW-Uo-YNl"/>
-                        <outlet property="mineableLabel" destination="LuP-wP-CFp" id="GN0-dY-ARl"/>
                         <outlet property="searchButton" destination="KbC-IY-a4q" id="9aT-HE-rpf"/>
                         <outlet property="textFieldCell" destination="g6B-TB-4mE" id="9j5-rp-GiJ"/>
-                        <outlet property="unLabel" destination="L8g-T8-84x" id="WJM-j4-ffg"/>
+                        <outlet property="unmineableImageView" destination="VpI-Uv-fft" id="HiB-RG-TLI"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -295,6 +269,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Unmineable-icon-new" width="147.45599365234375" height="147.45599365234375"/>
         <image name="loupe_green_search" width="216" height="216"/>
     </resources>
 </document>
