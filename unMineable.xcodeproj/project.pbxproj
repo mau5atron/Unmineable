@@ -43,12 +43,12 @@
 		4EAD701326DD8D15003CC3BB /* NSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD701226DD8D15003CC3BB /* NSMenu.m */; };
 		4EE5313D26F6D773006EB98A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5313B26F6D773006EB98A /* Interface.storyboard */; };
 		4EE5313F26F6D775006EB98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5313E26F6D775006EB98A /* Assets.xcassets */; };
-		4EE5314626F6D775006EB98A /* Unmineable-Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EE5314526F6D775006EB98A /* Unmineable-Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4EE5314626F6D775006EB98A /* unMineable-Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EE5314526F6D775006EB98A /* unMineable-Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4EE5314C26F6D775006EB98A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5314B26F6D775006EB98A /* InterfaceController.m */; };
 		4EE5314F26F6D775006EB98A /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5314E26F6D775006EB98A /* ExtensionDelegate.m */; };
 		4EE5315226F6D775006EB98A /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5315126F6D775006EB98A /* NotificationController.m */; };
 		4EE5315426F6D775006EB98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5315326F6D775006EB98A /* Assets.xcassets */; };
-		4EE5315926F6D775006EB98A /* Unmineable-Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4EE5313926F6D773006EB98A /* Unmineable-Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4EE5315926F6D775006EB98A /* unMineable-Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4EE5313926F6D773006EB98A /* unMineable-Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4EE5D96C26CA667900DB1AB7 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D96B26CA667900DB1AB7 /* Util.m */; };
 		4EE5D97026CB23B400DB1AB7 /* UtilColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5D96F26CB23B400DB1AB7 /* UtilColor.m */; };
 		4EE7D68126C76B7600FBC879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7D68026C76B7600FBC879 /* AppDelegate.m */; };
@@ -81,7 +81,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				4EE5315926F6D775006EB98A /* Unmineable-Watch.app in Embed Watch Content */,
+				4EE5315926F6D775006EB98A /* unMineable-Watch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4EE5314626F6D775006EB98A /* Unmineable-Watch Extension.appex in Embed App Extensions */,
+				4EE5314626F6D775006EB98A /* unMineable-Watch Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,7 +117,7 @@
 		4E5803FD26FBC24B00A08725 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
 		4E58B1FA26EFC35F00C99C48 /* address_list.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = address_list.plist; sourceTree = "<group>"; };
 		4E59C34227162FA400EA0DC7 /* Unmineable-icon-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unmineable-icon-new.png"; sourceTree = "<group>"; };
-		4EA6D23326F4B83300C1AA9C /* Unmineable-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unmineable-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA6D23326F4B83300C1AA9C /* unMineable-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unMineable-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA6D23526F4B83400C1AA9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EA6D23626F4B83400C1AA9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EA6D23B26F4B83400C1AA9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -137,11 +137,11 @@
 		4EAD700526DAD26B003CC3BB /* UnmineableMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnmineableMainView.m; sourceTree = "<group>"; };
 		4EAD701126DD8D15003CC3BB /* NSMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMenu.h; sourceTree = "<group>"; };
 		4EAD701226DD8D15003CC3BB /* NSMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMenu.m; sourceTree = "<group>"; };
-		4EE5313926F6D773006EB98A /* Unmineable-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unmineable-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE5313926F6D773006EB98A /* unMineable-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unMineable-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE5313C26F6D773006EB98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		4EE5313E26F6D775006EB98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EE5314026F6D775006EB98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EE5314526F6D775006EB98A /* Unmineable-Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Unmineable-Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE5314526F6D775006EB98A /* unMineable-Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "unMineable-Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE5314A26F6D775006EB98A /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
 		4EE5314B26F6D775006EB98A /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
 		4EE5314D26F6D775006EB98A /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		4EE5D96D26CA66A100DB1AB7 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		4EE5D96F26CB23B400DB1AB7 /* UtilColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilColor.m; sourceTree = "<group>"; };
 		4EE5D97226CB23F600DB1AB7 /* UtilColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilColor.h; sourceTree = "<group>"; };
-		4EE7D67C26C76B7600FBC879 /* Unmineable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unmineable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE7D67C26C76B7600FBC879 /* unMineable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unMineable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE7D67F26C76B7600FBC879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EE7D68026C76B7600FBC879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EE7D68526C76B7600FBC879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -328,10 +328,10 @@
 		4EE7D67D26C76B7600FBC879 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EE7D67C26C76B7600FBC879 /* Unmineable.app */,
-				4EA6D23326F4B83300C1AA9C /* Unmineable-iOS.app */,
-				4EE5313926F6D773006EB98A /* Unmineable-Watch.app */,
-				4EE5314526F6D775006EB98A /* Unmineable-Watch Extension.appex */,
+				4EE7D67C26C76B7600FBC879 /* unMineable.app */,
+				4EA6D23326F4B83300C1AA9C /* unMineable-iOS.app */,
+				4EE5313926F6D773006EB98A /* unMineable-Watch.app */,
+				4EE5314526F6D775006EB98A /* unMineable-Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,9 +368,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EA6D23226F4B83300C1AA9C /* Unmineable-iOS */ = {
+		4EA6D23226F4B83300C1AA9C /* unMineable-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EA6D26526F4B83500C1AA9C /* Build configuration list for PBXNativeTarget "Unmineable-iOS" */;
+			buildConfigurationList = 4EA6D26526F4B83500C1AA9C /* Build configuration list for PBXNativeTarget "unMineable-iOS" */;
 			buildPhases = (
 				4EA6D22F26F4B83300C1AA9C /* Sources */,
 				4EA6D23026F4B83300C1AA9C /* Frameworks */,
@@ -382,14 +382,14 @@
 			dependencies = (
 				4EE5315826F6D775006EB98A /* PBXTargetDependency */,
 			);
-			name = "Unmineable-iOS";
+			name = "unMineable-iOS";
 			productName = "Unmineable-iOS";
-			productReference = 4EA6D23326F4B83300C1AA9C /* Unmineable-iOS.app */;
+			productReference = 4EA6D23326F4B83300C1AA9C /* unMineable-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4EE5313826F6D773006EB98A /* Unmineable-Watch */ = {
+		4EE5313826F6D773006EB98A /* unMineable-Watch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE5315E26F6D775006EB98A /* Build configuration list for PBXNativeTarget "Unmineable-Watch" */;
+			buildConfigurationList = 4EE5315E26F6D775006EB98A /* Build configuration list for PBXNativeTarget "unMineable-Watch" */;
 			buildPhases = (
 				4EE5313726F6D773006EB98A /* Resources */,
 				4EE5315D26F6D775006EB98A /* Embed App Extensions */,
@@ -399,14 +399,14 @@
 			dependencies = (
 				4EE5314826F6D775006EB98A /* PBXTargetDependency */,
 			);
-			name = "Unmineable-Watch";
+			name = "unMineable-Watch";
 			productName = "Unmineable-Watch";
-			productReference = 4EE5313926F6D773006EB98A /* Unmineable-Watch.app */;
+			productReference = 4EE5313926F6D773006EB98A /* unMineable-Watch.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		4EE5314426F6D775006EB98A /* Unmineable-Watch Extension */ = {
+		4EE5314426F6D775006EB98A /* unMineable-Watch Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE5315A26F6D775006EB98A /* Build configuration list for PBXNativeTarget "Unmineable-Watch Extension" */;
+			buildConfigurationList = 4EE5315A26F6D775006EB98A /* Build configuration list for PBXNativeTarget "unMineable-Watch Extension" */;
 			buildPhases = (
 				4EE5314126F6D775006EB98A /* Sources */,
 				4EE5314226F6D775006EB98A /* Frameworks */,
@@ -416,14 +416,14 @@
 			);
 			dependencies = (
 			);
-			name = "Unmineable-Watch Extension";
+			name = "unMineable-Watch Extension";
 			productName = "Unmineable-Watch Extension";
-			productReference = 4EE5314526F6D775006EB98A /* Unmineable-Watch Extension.appex */;
+			productReference = 4EE5314526F6D775006EB98A /* unMineable-Watch Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		4EE7D67B26C76B7600FBC879 /* Unmineable */ = {
+		4EE7D67B26C76B7600FBC879 /* unMineable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE7D6A626C76B7600FBC879 /* Build configuration list for PBXNativeTarget "Unmineable" */;
+			buildConfigurationList = 4EE7D6A626C76B7600FBC879 /* Build configuration list for PBXNativeTarget "unMineable" */;
 			buildPhases = (
 				4EE7D67826C76B7600FBC879 /* Sources */,
 				4EE7D67926C76B7600FBC879 /* Frameworks */,
@@ -433,9 +433,9 @@
 			);
 			dependencies = (
 			);
-			name = Unmineable;
+			name = unMineable;
 			productName = Unmineable;
-			productReference = 4EE7D67C26C76B7600FBC879 /* Unmineable.app */;
+			productReference = 4EE7D67C26C76B7600FBC879 /* unMineable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -461,7 +461,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4EE7D67726C76B7600FBC879 /* Build configuration list for PBXProject "Unmineable" */;
+			buildConfigurationList = 4EE7D67726C76B7600FBC879 /* Build configuration list for PBXProject "unMineable" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -474,10 +474,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EE7D67B26C76B7600FBC879 /* Unmineable */,
-				4EA6D23226F4B83300C1AA9C /* Unmineable-iOS */,
-				4EE5313826F6D773006EB98A /* Unmineable-Watch */,
-				4EE5314426F6D775006EB98A /* Unmineable-Watch Extension */,
+				4EE7D67B26C76B7600FBC879 /* unMineable */,
+				4EA6D23226F4B83300C1AA9C /* unMineable-iOS */,
+				4EE5313826F6D773006EB98A /* unMineable-Watch */,
+				4EE5314426F6D775006EB98A /* unMineable-Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -586,12 +586,12 @@
 /* Begin PBXTargetDependency section */
 		4EE5314826F6D775006EB98A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4EE5314426F6D775006EB98A /* Unmineable-Watch Extension */;
+			target = 4EE5314426F6D775006EB98A /* unMineable-Watch Extension */;
 			targetProxy = 4EE5314726F6D775006EB98A /* PBXContainerItemProxy */;
 		};
 		4EE5315826F6D775006EB98A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4EE5313826F6D773006EB98A /* Unmineable-Watch */;
+			target = 4EE5313826F6D773006EB98A /* unMineable-Watch */;
 			targetProxy = 4EE5315726F6D775006EB98A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -929,7 +929,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EA6D26526F4B83500C1AA9C /* Build configuration list for PBXNativeTarget "Unmineable-iOS" */ = {
+		4EA6D26526F4B83500C1AA9C /* Build configuration list for PBXNativeTarget "unMineable-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EA6D25F26F4B83500C1AA9C /* Debug */,
@@ -938,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EE5315A26F6D775006EB98A /* Build configuration list for PBXNativeTarget "Unmineable-Watch Extension" */ = {
+		4EE5315A26F6D775006EB98A /* Build configuration list for PBXNativeTarget "unMineable-Watch Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EE5315B26F6D775006EB98A /* Debug */,
@@ -947,7 +947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EE5315E26F6D775006EB98A /* Build configuration list for PBXNativeTarget "Unmineable-Watch" */ = {
+		4EE5315E26F6D775006EB98A /* Build configuration list for PBXNativeTarget "unMineable-Watch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EE5315F26F6D775006EB98A /* Debug */,
@@ -956,7 +956,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EE7D67726C76B7600FBC879 /* Build configuration list for PBXProject "Unmineable" */ = {
+		4EE7D67726C76B7600FBC879 /* Build configuration list for PBXProject "unMineable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EE7D6A426C76B7600FBC879 /* Debug */,
@@ -965,7 +965,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EE7D6A626C76B7600FBC879 /* Build configuration list for PBXNativeTarget "Unmineable" */ = {
+		4EE7D6A626C76B7600FBC879 /* Build configuration list for PBXNativeTarget "unMineable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EE7D6A726C76B7600FBC879 /* Debug */,
