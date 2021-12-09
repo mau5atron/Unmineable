@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Unmineable.xcodeproj">
+      location = "self:/Users/mau5atron/Desktop/ios/Unmineable/unMineable.xcodeproj">
    </FileRef>
 </Workspace>

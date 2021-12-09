@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EE5313826F6D773006EB98A"
-               BuildableName = "Unmineable-Watch.app"
-               BlueprintName = "Unmineable-Watch"
-               ReferencedContainer = "container:Unmineable.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "4EA6D23226F4B83300C1AA9C"
-               BuildableName = "Unmineable-iOS.app"
-               BlueprintName = "Unmineable-iOS"
+               BuildableName = "unMineable-iOS.app"
+               BlueprintName = "unMineable-iOS"
                ReferencedContainer = "container:Unmineable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4EA6D24C26F4B83500C1AA9C"
+               BuildableName = "Unmineable-iOSTests.xctest"
+               BlueprintName = "Unmineable-iOSTests"
+               ReferencedContainer = "container:Unmineable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4EA6D25726F4B83500C1AA9C"
+               BuildableName = "Unmineable-iOSUITests.xctest"
+               BlueprintName = "Unmineable-iOSUITests"
+               ReferencedContainer = "container:Unmineable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -53,20 +59,17 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES"
-      notificationPayloadFile = "Unmineable-Watch Extension/PushNotificationPayload.apns">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Unmineable-iOS">
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4EE5313826F6D773006EB98A"
-            BuildableName = "Unmineable-Watch.app"
-            BlueprintName = "Unmineable-Watch"
+            BlueprintIdentifier = "4EA6D23226F4B83300C1AA9C"
+            BuildableName = "unMineable-iOS.app"
+            BlueprintName = "unMineable-iOS"
             ReferencedContainer = "container:Unmineable.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -74,33 +77,23 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/Unmineable-iOS">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4EE5313826F6D773006EB98A"
-            BuildableName = "Unmineable-Watch.app"
-            BlueprintName = "Unmineable-Watch"
+            BlueprintIdentifier = "4EA6D23226F4B83300C1AA9C"
+            BuildableName = "unMineable-iOS.app"
+            BlueprintName = "unMineable-iOS"
             ReferencedContainer = "container:Unmineable.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4EE5313826F6D773006EB98A"
-            BuildableName = "Unmineable-Watch.app"
-            BlueprintName = "Unmineable-Watch"
-            ReferencedContainer = "container:Unmineable.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "unMineable-iOS"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

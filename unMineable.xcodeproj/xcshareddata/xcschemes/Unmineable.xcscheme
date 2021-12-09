@@ -15,8 +15,8 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "4EE7D67B26C76B7600FBC879"
-                     BuildableName = "Unmineable.app"
-                     BlueprintName = "Unmineable"
+                     BuildableName = "unMineable.app"
+                     BlueprintName = "unMineable"
                      ReferencedContainer = "container:Unmineable.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -33,8 +33,8 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "4EE7D67B26C76B7600FBC879"
-                     BuildableName = "Unmineable.app"
-                     BlueprintName = "Unmineable"
+                     BuildableName = "unMineable.app"
+                     BlueprintName = "unMineable"
                      ReferencedContainer = "container:Unmineable.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -51,8 +51,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4EE7D67B26C76B7600FBC879"
-               BuildableName = "Unmineable.app"
-               BlueprintName = "Unmineable"
+               BuildableName = "unMineable.app"
+               BlueprintName = "unMineable"
                ReferencedContainer = "container:Unmineable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -67,8 +67,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EE7D67B26C76B7600FBC879"
-            BuildableName = "Unmineable.app"
-            BlueprintName = "Unmineable"
+            BuildableName = "unMineable.app"
+            BlueprintName = "unMineable"
             ReferencedContainer = "container:Unmineable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -116,8 +116,8 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "4EE7D67B26C76B7600FBC879"
-                     BuildableName = "Unmineable.app"
-                     BlueprintName = "Unmineable"
+                     BuildableName = "unMineable.app"
+                     BlueprintName = "unMineable"
                      ReferencedContainer = "container:Unmineable.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -129,8 +129,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EE7D67B26C76B7600FBC879"
-            BuildableName = "Unmineable.app"
-            BlueprintName = "Unmineable"
+            BuildableName = "unMineable.app"
+            BlueprintName = "unMineable"
             ReferencedContainer = "container:Unmineable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -146,8 +146,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4EE7D67B26C76B7600FBC879"
-            BuildableName = "Unmineable.app"
-            BlueprintName = "Unmineable"
+            BuildableName = "unMineable.app"
+            BlueprintName = "unMineable"
             ReferencedContainer = "container:Unmineable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -157,6 +157,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Debug"
+      customArchiveName = "unMineable"
       revealArchiveInOrganizer = "YES">
       <PostActions>
          <ExecutionAction
